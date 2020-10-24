@@ -63,11 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Nivel1\Script\PO.cs" />
     <Compile Include="Assets\Scenes\Nivel1\Script\POSlot.cs" />
     <Compile Include="Assets\Scenes\Nivel1\Script\ProximoNivel.cs" />
-    <Compile Include="Assets\Scenes\Nivel1\Script\SA.cs" />
     <Compile Include="Assets\Scenes\Nivel1\Script\SASlot.cs" />
+    <Compile Include="Assets\Scenes\Nivel1\Script\Silaba.cs" />
     <Compile Include="Assets\scri.cs" />
     <Compile Include="Assets\scripts\ChangeScene.cs" />
     <Compile Include="Assets\scripts\DragDrop.cs" />
