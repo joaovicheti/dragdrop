@@ -9,6 +9,60 @@ EditorBuildSettings:
     path: Assets/Scenes/tela inicial.unity
     guid: be5daf1cf43c90043b9fd1bf1a2611c7
   - enabled: 1
-    path: Assets/Scenes/fase01.unity
-    guid: 6c44cc70703d83342b093ce8293eb9f6
+    path: Assets/Scenes/Sapo.unity
+    guid: 3a9afa3e63cf4914a8b702af92f477c4
+  - enabled: 1
+    path: Assets/Scenes/roda.unity
+    guid: cfa1db5c8646ed24fa63e1e97bd288e3
+  - enabled: 1
+    path: Assets/Scenes/bola.unity
+    guid: a0c75be7a465e9148966e86d03713a94
+  - enabled: 1
+    path: "Assets/Scenes/ma\xE7\xE3.unity"
+    guid: 730ba14bb9264df45930e1bfc78e1bb9
+  - enabled: 1
+    path: Assets/Scenes/boca.unity
+    guid: cbc867e28d6f29447b264c976f590719
+  - enabled: 1
+    path: Assets/Scenes/pato.unity
+    guid: e9f7b082f9f08404eb8a4d54676ba8c9
+  - enabled: 1
+    path: Assets/Scenes/dedo.unity
+    guid: 54fd4257328b0164c847770d69de8381
+  - enabled: 1
+    path: Assets/Scenes/casa.unity
+    guid: a9734d08a3e2b7e4897df30f527dafa2
+  - enabled: 1
+    path: Assets/Scenes/tela nivel.unity
+    guid: 23d4bbea49da370479c60687595607f7
+  - enabled: 1
+    path: Assets/Scenes/telha.unity
+    guid: a8f790cb50074d34bb72d23aca985d94
+  - enabled: 1
+    path: Assets/Scenes/palha.unity
+    guid: 306f26cd19c99ae40a3efd8f6c6c75fd
+  - enabled: 1
+    path: Assets/Scenes/lenha.unity
+    guid: edfabb2447ddf1a448a16cef9aa40920
+  - enabled: 1
+    path: Assets/Scenes/unha.unity
+    guid: 388a3c01c22f01b40a36c6f651de1de4
+  - enabled: 1
+    path: Assets/Scenes/rosa.unity
+    guid: 89c8fd6eed0567142a0131c06d0760e8
+  - enabled: 1
+    path: Assets/Scenes/menino.unity
+    guid: ddf8353d6bcf37e45891ede2d46978b9
+  - enabled: 1
+    path: Assets/Scenes/aranha.unity
+    guid: adb2c36f08e07a944bdf5212762826f9
+  - enabled: 1
+    path: Assets/Scenes/abelha.unity
+    guid: ba7bdd37e034eb54fb360cc419d69c3d
+  - enabled: 1
+    path: Assets/Scenes/menina.unity
+    guid: 690b1ab816dc48541a5e8066fe0630c9
+  - enabled: 1
+    path: Assets/Scenes/CAMARAO.unity
+    guid: af9f47c0c6bee7f4fa0375f86a9182eb
   m_configObjects: {}
