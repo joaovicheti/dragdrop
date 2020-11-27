@@ -9,16 +9,34 @@ public class Silaba : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHa
 {
     private RectTransform rextTransform;
     private CanvasGroup canvasGroup;
-
+    private AudioSource audioSource;
+    public AudioClip silaba;
     private void Awake()
     {
         rextTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
+    void Start()
+    {
+        audioSource = FindObjectOfType<AudioSource>();
+    }
+
+    private void PlaySound()
+    {
+        if (audioSource)
+        {
+            if (audioSource.isPlaying)
+                audioSource.Stop();
+            
+            if (silaba)
+                audioSource.PlayOneShot(silaba);
+        }
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        PlaySound();
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
     }
